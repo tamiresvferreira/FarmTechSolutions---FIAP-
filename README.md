@@ -13,11 +13,17 @@
 <p align="left">
 <img src="https://img.shields.io/badge/Python-3.8+-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/R-4.x-198CE7?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
-<img src="https://img.shields.io/badge/API-Open--Meteo-ff5fa2?style=for-the-badge" alt="Open-Meteo"/>
-<img src="https://img.shields.io/badge/Projeto-individual-c2185b?style=for-the-badge" alt="Projeto individual"/>
+<img src="https://img.shields.io/badge/API-Open--Meteo-2ea043?style=for-the-badge" alt="Open-Meteo"/>
+<img src="https://img.shields.io/badge/Fase_1-projeto_individual-1a7f37?style=for-the-badge" alt="Fase 1 · projeto individual"/>
 </p>
 
 ## Projeto individual — Fase 1, Cap. 1 "Play no seu Desenvolvimento como Dev"
+
+### 🌱 Onde este projeto começa
+
+Esta é a **Fase 1**, o ponto de partida da FarmTech Solutions, a startup fictícia que acompanha todas as fases da graduação em IA da FIAP. Foi a primeira entrega do curso, feita **individualmente**, com o recorte no agronegócio da **Paraíba**: escolhi duas das culturas mais importantes do estado (cana-de-açúcar e milho) e usei o clima de João Pessoa como referência.
+
+O objetivo desta fase era montar a base: coletar dados do talhão, calcular área e insumos e analisar os números. Nas fases seguintes, o projeto FarmTech evoluiu para sensores IoT, banco de dados, machine learning e cloud, já em trabalho em grupo.
 
 ### ✨ Destaques
 
@@ -25,7 +31,6 @@
 - **Geometria aplicada ao talhão:** a cana usa área em **trapézio** e o milho em **retângulo**, como acontece em terrenos reais e irregulares.
 - **CRUD completo em vetores:** entrada, consulta, atualização em qualquer posição e deleção com confirmação, com validação de entrada (`try/except`) para não quebrar com valor inválido.
 - **Dados externos em tempo real:** o R consulta a API pública **Open-Meteo** e mostra o clima atual de João Pessoa/PB junto com a análise.
-- **Contexto regional:** culturas escolhidas entre as principais da **Paraíba** (cana-de-açúcar e milho).
 
 ## 👩‍🎓 Integrante:
 - <a href="https://br.linkedin.com/in/tamiresvferreiras">Tamires Vitória Ferreira dos Santos</a>
@@ -175,7 +180,7 @@ DETALHAMENTO POR AREA:
 ## 🗃 Histórico de lançamentos
 
 * 0.3.0 - 11/11/2026
-    * README com destaques, problema e público, diagrama do fluxo, telas reais da aplicação e gráfico de resultados.
+    * README com o contexto da Fase 1, destaques, problema e público, diagrama do fluxo, telas reais da aplicação e gráfico de resultados.
 * 0.2.0 - 11/11/2026
     * Correções a partir do feedback da avaliação: removida a chamada `source()` do próprio script na primeira linha do R, que causava recursão infinita.
     * Pacotes do R instalados só quando faltam; o CSV é localizado pela pasta do script; a consulta à API não interrompe a análise se a internet falhar.
